@@ -13,3 +13,5 @@ libLLVM.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), dynamic
 
 gcc aplay.c -I.. -I../include -lrt -lasound -lm -ldl -lpthread
 
+# You may add -m32 to solve this issue. but some compiler doesnt support it. (gcc termux)
+
